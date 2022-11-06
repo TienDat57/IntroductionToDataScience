@@ -13,7 +13,7 @@
 
 ## 3. Topics for our project
 * **Topics**: **E-commerce**
-* **Description:** We will analyze the data of an e-commerce website to find out the most important factors that affect the revenue of the website. We will also find out the most important factors that affect the number of orders of the website. 
-* **Dataset:** We will crawl data from API of [Tiki.vn](https://tiki.vn/)
-* **Tools:** Python, Jupyter Notebook, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Scipy, Statsmodels, ...
+* **Target**: **Predict trending and outdated products in a category (Products that increase fast in sales in a time period)**
+* **Dataset:** We will crawl data from reponse of API of [Tiki](https://tiki.vn/)
+* **Tools:** Jupyter Notebook and libraries needed for project
 * **Goal:** Apply the knowledge for data science to solve real-world problems.
