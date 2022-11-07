@@ -38,7 +38,7 @@ def parse_products(product_json):
     products['p_rating_average'] = product_json.get('rating_average')
     return products
 
-def get_all_pages():
+def get_product_id_all_pages():
     print('Start crawling...')
     all_products = []
     for page in range(1, 50):
@@ -55,7 +55,7 @@ def get_all_pages():
     print('Crawling completed!')
     return all_products
 
-result = get_all_pages()
+result = get_product_id_all_pages()
     
 df = pd.DataFrame(result)
-df.to_csv('tiki.csv', index=False)
+df.to_csv('../../data/raw/products_id.csv', index=False)
