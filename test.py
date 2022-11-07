@@ -36,7 +36,6 @@ def parse_products(product_json):
     products['p_discount_rate'] = product_json.get('discount_rate')
     products['p_review_count'] = product_json.get('review_count')
     products['p_rating_average'] = product_json.get('rating_average')
-    
     return products
 
 def get_all_pages():
