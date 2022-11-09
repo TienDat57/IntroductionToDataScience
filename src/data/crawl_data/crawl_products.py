@@ -27,6 +27,10 @@ def parser_product(json):
     product_dict['p_shop_name'] = json.get('current_seller').get('name') if json.get('current_seller') else None
     product_dict['p_brand'] = json.get('brand').get('name') if json.get('brand') else None
     product_dict['p_categories'] = json.get('categories').get('name') if json.get('categories') else None
+    product_dict['p_sold_quantity'] = json.get('quantity_sold').get('value') if json.get('quantity_sold') else 0 
+    product_dict['p_original_price'] = json.get('original_price') 
+    product_dict['p_current_price'] = json.get('price') 
+    product_dict['p_discount_rate'] = json.get('discount_rate') 
     return product_dict
 
 def get_product_detail(p_ids):

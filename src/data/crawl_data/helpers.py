@@ -3,7 +3,8 @@ headers = {
    'Accept': 'application/json, text/plain, */*',
    'Accept-Language': 'vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3',
    'Referer': 'https://tiki.vn/?src=header_tiki',
-   'x-guest-token': 'xLOIgaKMRSBUwfeYkWJ6rThQbHdE7pDn',
+   'x-guest-token': '8hHebNJizdqGFamf10pQLcOBo5Tl7rw4'
+   #'xLOIgaKMRSBUwfeYkWJ6rThQbHdE7pDn',
    'Connection': 'keep-alive',
    'TE': 'Trailers',
 }
