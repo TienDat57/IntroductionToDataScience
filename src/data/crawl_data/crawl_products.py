@@ -3,6 +3,11 @@ from tqdm import tqdm
 import pandas as pd
 import helpers
 
+
+
+headers = helpers._HEADERS
+params = helpers._PARAMS_PRODUCTS_DETAIL
+
 def parser_product(json):
     product_dict = dict()
     product_dict['p_id'] = json.get('id')
@@ -21,7 +26,7 @@ def get_product_detail(p_ids):
     result = []
     print('Start crawling...')
     for p_id in tqdm(p_ids, total=len(p_ids)):
-        response = requests.get('https://tiki.vn/api/v2/products/{}'.format(p_id), headers=helpers._HEADERS, params=helpers._PARAMS_PRODUCTS_DETAIL)
+        response = requests.get('https://tiki.vn/api/v2/products/{}'.format(p_id), headers= headers, params= headers)
         if response.status_code == 200:
             result.append(parser_product(response.json()))
         # time.sleep(random.randint(1, 3))
@@ -29,7 +34,7 @@ def get_product_detail(p_ids):
     return result
 
 df_id = pd.read_csv('../../../data/raw/products_id.csv')
-p_ids = df_id.id.to_list()
+p_ids = df_id.p_id.to_list()
 
 list_products = get_product_detail(p_ids)
 

@@ -1,8 +1,12 @@
 import requests
 import time
 import random
+from tqdm import tqdm
 import pandas as pd
 import helpers
+
+params = helpers._PARAMS_PRODUCTS_ID
+headers = helpers._HEADERS
 
 def parse_products(product_json):
    products = dict()
@@ -15,8 +19,9 @@ def get_product_id_all_pages():
    all_products = []
    for page in range(1, 50):
       print('Crawling page: ', page)
-      helpers._PARAMS_PRODUCTS_ID['page'] = page
-      response = requests.get('https://tiki.vn/api/v2/products', headers=helpers._HEADERS, params=helpers._PARAMS_PRODUCTS_ID)
+      params['page'] = str(page)
+      response = requests.get('https://tiki.vn/api/v2/products', headers= headers, params= params)
+      print(response.status_code)
       if response.status_code == 200:
          products_json = response.json().get('data')
          for product in products_json:
