@@ -1,7 +1,6 @@
 import requests
 import time
 import random
-from tqdm import tqdm
 import pandas as pd
 import helpers
 

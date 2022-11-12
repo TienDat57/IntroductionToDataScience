@@ -3,8 +3,6 @@ from tqdm import tqdm
 import pandas as pd
 import helpers
 
-
-
 headers = helpers._HEADERS
 params = helpers._PARAMS_PRODUCTS_DETAIL
 
