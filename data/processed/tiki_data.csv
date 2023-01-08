@@ -1,4 +1,4 @@
-p_id,p_name,p_category,p_id_shop,p_shop_name,p_brand,p_day_created,p_sold_quantity,p_original_price,p_current_price,p_discount_rate
+p_id,p_name,p_categories,p_id_shop,p_shop_name,p_brand,p_day_created,p_sold_quantity,p_original_price,p_current_price,p_discount_rate
 83412126,Bình Giữ Nhiệt Lock&Lock Energetic One-Touch Tumbler LHC3249 - 550ML,Bình giữ nhiệt,38510.0,JoyMall LocknLock Chính Hãng,LocknLock,659.0,702,528000,269000,49
 53789448,"Bộ cây lau nhà tự vắt thông minh, chổi lau nhà 360 độ, lau sạch khô nhanh - Parroti Pro PR01",Nhà Cửa - Đời Sống,96639.0,Parroti Store,Parroti,974.0,12844,799000,429000,46
 13334313,Bộ 6 chén (bát) cơm sứ phong cách Nhật Bản hoa văn sắc xưa giả cổ,Nhà Cửa - Đời Sống,3340.0,Công ty TNHH TM Minh Gia Lợi,OEM,1372.0,938,209000,209000,0
