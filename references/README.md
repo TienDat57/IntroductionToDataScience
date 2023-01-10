@@ -1,0 +1,5 @@
+- [Linear Regresion algorithm](https://machinelearningcoban.com/2016/12/28/linearregression/)
+- [Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+- Two files demo assignment in class. [DEMO-1](https://drive.google.com/drive/folders/1diSYn9_rpfCWzXnK0ihq5821Z_POTBES)  | [DEMO-2](https://drive.google.com/drive/folders/1dVXJIFW0ui-TJd-KJFZ7Q3Xi_S3RxTtv)
+- [Slide](https://slidesgo.com/theme/pestel-analysis-thesis-defense?fbclid=IwAR1Ju4MeCCwSeQ-v7PPUJEE0do0IPxpMTB4FVhLm3zmzq0AEx8GWqd1ptks#position-132&results-11706)
+- [Example project](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction)
